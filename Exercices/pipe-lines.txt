@@ -27,7 +27,11 @@ grep "Location" Exercice1/ArborescenceIhsane/ann/2018/*.ann | wc -l >> PPE1-2024
 
 Commandes Exercice 2.a
 
+grep "Location" Exercice1/ArborescenceIhsane/ann/2016/*.ann | cut -f3 | sort | uniq -c | sort -nr | head -15 >> PPE1-2024/Exercices/classement_2016.txt
 
+grep "Location" Exercice1/ArborescenceIhsane/ann/2017/*.ann | cut -f3 | sort | uniq -c | sort -nr | head -15 >> PPE1-2024/Exercices/classement_2017.txt
+
+grep "Location" Exercice1/ArborescenceIhsane/ann/2018/*.ann | cut -f3 | sort | uniq -c | sort -nr | head -15 >> PPE1-2024/Exercices/classement_2018.txt
 
 
 
