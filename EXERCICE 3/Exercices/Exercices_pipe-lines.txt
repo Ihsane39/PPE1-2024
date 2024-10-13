@@ -1,9 +1,0 @@
-Commandes Exercice 1.a:
-echo "Annotations en 2016 :" >> Exercices_pipe-lines.txt
-grep "2016".ann | wc -l >> Exercices_pipe-lines.txt
-
-echo "Annotations en 2017 :" >> Exercices_pipe-lines.txt
-grep "2017".ann | wc -l >> Exercices_pipe-lines.txt
-
-echo "Annotations en 2018 :" >> Exercices_pipe-lines.txt
-grep "2018".ann | wc -l >> Exercices_pipe-lines.txt
