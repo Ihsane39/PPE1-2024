@@ -13,3 +13,6 @@
 # Séance 3	
 ## exercices git
  Git II : corriger des erreurs
+ Première erreur
+ Deuxième erreur catastrophique
+ Je suis complétment perdue entre tous les git
