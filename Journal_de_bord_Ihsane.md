@@ -13,3 +13,4 @@
 # Séance 3	
 ## exercices git
  Git II : corriger des erreurs
+ Cette ligne doit rester après correction
