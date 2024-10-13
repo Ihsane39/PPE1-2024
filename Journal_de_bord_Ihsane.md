@@ -10,5 +10,6 @@
 
  	
 
-# Exercices git	
+# Séance 3	
 ## exercices git
+ Git II : corriger des erreurs
