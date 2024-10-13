@@ -1,0 +1,33 @@
+Commandes Exercice 1.a:
+
+echo "Annotations en 2016 :" >> PPE1-2024/Exercices/comptes.txt
+grep "2016" Exercice1/ArborescenceIhsane/ann/2016/*.ann | wc -l >> PPE1-2024/Exercices/comptes.txt
+
+echo "Annotations en 2017 :" >> PPE1-2024/Exercices/comptes.txt
+grep "2017" Exercice1/ArborescenceIhsane/ann/2017/*.ann | wc -l >> PPE1-2024/Exercices/comptes.txt
+
+echo "Annotations en 2018 :" >> PPE1-2024/Exercices/comptes.txt
+grep "2018" Exercice1/ArborescenceIhsane/ann/2018/*.ann | wc -l >> PPE1-2024/Exercices/comptes.txt
+
+
+Commandes Exercice 1.b:
+
+echo "Annotations en 2016 :" >> locations.txt egrep "Location" 2016.ann | egrep -c "2016" >> locations.txt
+grep: 2016.ann: Aucun fichier ou dossier de ce nom
+
+echo "Annotations en 2017 :" >> locations.txt egrep "Location" 2017.ann | egrep -c "2017" >> locations.txt
+grep: 2017.ann: Aucun fichier ou dossier de ce nom
+
+echo "Annotations en 2018 :" >> locations.txt egrep "Location" 2018.ann | egrep -c "2018" >> locations.txt
+grep: 2018.ann: Aucun fichier ou dossier de ce nom
+
+
+Commandes Exercice 2.a
+
+
+
+
+
+
+
+Commandes Exercice 2.b
