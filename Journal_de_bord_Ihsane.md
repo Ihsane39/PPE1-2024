@@ -9,10 +9,11 @@
  Les piplines sont encore un concept absterets pour moi. L'exercie était chronophage. Certaines commandes m'étaient inconnues. Je n'avais pas le bon résultas comme vous le constaterez dans les fichers. J'ai dû faire appel l'aide d'une autre personne pour corriger et comprendre mes erreurs. 
 
  	
-
 # Séance 3	
-## exercices git
+## Exercices git correction d’erreurs
  Git II : corriger des erreurs
  Première erreur
  Deuxième erreur catastrophique
  Je suis complétment perdue entre tous les git
+ Exercices git correction d’erreurs
+ Cette ligne doit être mise de côté
