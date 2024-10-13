@@ -6,6 +6,9 @@
  Etait très difficile pour moi. J'aurais besoin de plusieus exercice avant de savoir bien gérer mon dépôt durant cette année de master
 
 ## Exercice Pipelines : mise en pratique 09/10/24 réalisé le 13/10/24
- Les piplines sont encore un concept absterets pour moi. L'exercie était chronophage. Certaines commandes m'étaient inconnues. Je n'avais pas le bon résultas comme vous le constaterez dans les fichers. J'ai dû faire appel l'aide d'une autre personne pour corriger et comprendre mes erreurs.  	
+ Les piplines sont encore un concept absterets pour moi. L'exercie était chronophage. Certaines commandes m'étaient inconnues. Je n'avais pas le bon résultas comme vous le constaterez dans les fichers. J'ai dû faire appel l'aide d'une autre personne pour corriger et comprendre mes erreurs. 
 
-	
+ 	
+
+# Exercices git	
+## exercices git
