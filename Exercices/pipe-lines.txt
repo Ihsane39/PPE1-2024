@@ -34,7 +34,6 @@ grep "Location" Exercice1/ArborescenceIhsane/ann/2017/*.ann | cut -f3 | sort | u
 grep "Location" Exercice1/ArborescenceIhsane/ann/2018/*.ann | cut -f3 | sort | uniq -c | sort -nr | head -15 >> PPE1-2024/Exercices/classement_2018.txt
 
 
-
-
-
 Commandes Exercice 2.b
+
+grep "Location" Exercice1/ArborescenceIhsane/ann/2016/*_07_*.ann Exercice1/ArborescenceIhsane/ann/2017/*_07_*.ann Exercice1/ArborescenceIhsane/ann/2018/*_07_*.ann | cut -f3 | sort | uniq -c | sort -nr | head -15 >> PPE1-2024/Exercices/classement_juillet.txt
