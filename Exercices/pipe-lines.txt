@@ -1,4 +1,4 @@
-Commandes Exercice 1.a:
+Commandes Exercice 1.a: PIPLINES
 
 echo "Annotations en 2016 :" >> PPE1-2024/Exercices/comptes.txt
 grep "2016" Exercice1/ArborescenceIhsane/ann/2016/*.ann | wc -l >> PPE1-2024/Exercices/comptes.txt
@@ -39,3 +39,7 @@ grep "Location" Exercice1/ArborescenceIhsane/ann/2018/*.ann | cut -f3 | sort | u
 Commandes Exercice 2.b
 
 grep "Location" Exercice1/ArborescenceIhsane/ann/2016/*_07_*.ann Exercice1/ArborescenceIhsane/ann/2017/*_07_*.ann Exercice1/ArborescenceIhsane/ann/2018/*_07_*.ann | cut -f3 | sort | uniq -c | sort -nr | head -15 >> PPE1-2024/Exercices/classement_juillet.txt
+
+ls Exercice1/SortiesAttentdues/1/ann/
+
+Exercices git corriger les erreurs
