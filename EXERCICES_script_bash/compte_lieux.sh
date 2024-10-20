@@ -9,6 +9,24 @@ year=$1
 month=$2
 nbr_area=$3
 
+# Vérifier si l'année est un nombre
+if ! [[ "$year" =~ ^[0-9]{4}$ ]]; then
+    echo "Erreur : L'année doit être un nombre à 4 chiffres."
+    exit 1
+fi
+
+# Vérifier si le mois est entre 1 et 12
+if ! [[ "$month" =~ ^[0-9]+$ ]] || [ "$month" -lt 1 ] || [ "$month" -gt 12 ]; then
+    echo "Erreur : Le mois doit être un nombre entre 1 et 12."
+    exit 1
+fi
+
+# Vérifier si nbr_area est un nombre
+if ! [[ "$nbr_area" =~ ^[0-9]+$ ]]; then
+    echo "Erreur : Le nombre de lieux doit être un entier positif."
+    exit 1
+fi
+
 # Classement des lieux de toutes les années et mois confondus
 if [ "$year" = "*" ] && [ "$month" = "*" ]; then
     echo "le classement des $nbr_area lieux les plus cités de 2016 à 2018"
