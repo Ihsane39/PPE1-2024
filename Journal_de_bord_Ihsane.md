@@ -50,3 +50,25 @@ les changements en utilisant les commandes du paragraphe précédent. Quelle(s) 
 Une fois les changements appliqués, effectuez les opérations nécessaires pour les pousser sur le dépôt distant.
 
 git stash pop : cette commande applique les changements du  dernier stash 
+
+# Séance 4
+## Exercices script Bahs
+Fonctionnement du script Bash
+
+Ce script Bash vérifie la validité des URLs dans un fichier passé en argument. Voici les étapes détaillées de son fonctionnement :
+
+1. Le script commence par vérifier le nombre d'arguments passés lors de l'exécution. S'il n'y a pas exactement un argument, le script affiche un message "ce programme demande un argument" et se termine immédiatement.
+
+2. La variable `FICHIER_URLS` est initialisée avec le premier argument passé au script. Cette variable est censée contenir le chemin vers un fichier texte dans lequel chaque ligne représente une URL.
+
+3. Deux variables, `OK` et `NOK`, sont initialisées à 0. Ces variables comptent respectivement le nombre de lignes valides (celles qui ressemblent à des URLs) et le nombre de lignes invalides.
+
+4. Le script utilise une boucle `while` pour lire chaque ligne du fichier spécifié. À chaque itération :
+   - La ligne est affichée sur la sortie standard avec le texte "la ligne :".
+   - Le script tente ensuite de vérifier si la ligne correspond à une URL en utilisant une expression régulière (regex) qui cherche des chaînes commençant par `http` ou `https`.
+   - Si la ligne correspond à la regex, un message "ressemble à une URL valide" est affiché, et la variable `OK` est incrémentée.
+   - Si la ligne ne correspond pas à la regex, un message "ne ressemble pas à une URL valide" est affiché, et la variable `NOK` est incrémentée.
+
+5. À la fin de la boucle, le script affiche le nombre total d'URLs valides et de lignes douteuses (non conformes) en utilisant les valeurs des variables `OK` et `NOK`.
+
+ - Le script utilise la commande `exit` sans préciser de code de sortie, ce qui signifie que le code par défaut (0) sera utilisé.
