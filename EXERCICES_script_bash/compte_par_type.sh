@@ -33,8 +33,9 @@ echo "$entity en $year :"
 #Egrep cherhche la valeur de la variable entity dans le chemin spécifié
 #Compte le nombre de lignes trouvées avec wc -l Cette partie compte le nombre de lignes correspondant aux résultats de la recherche et stocke ce nombre dans la variable count
 
-count=$(egrep "$entity" "/home/administrateur/Bureau/MASTER TAL/M1 TAL/PROJET ENCADRE 1/TD S1/PPE1-2024/EXERCICES_script_bash/ann/$year/"*.ann | wc -l)
-
+#count=$(egrep "$entity" "/home/administrateur/Bureau/MASTER TAL/M1 TAL/PROJET ENCADRE 1/TD S1/PPE1-2024/EXERCICES_script_bash/ann/$year/"*.ann | wc -l)
+#Remplacement chemin absolu par chemin relatif
+count=$(egrep "$entity" "./ann/$year/"*.ann | wc -l)
 #Cette ligne affiche le nombre de lignes (c'est-à-dire le nombre d'occurrences de "Location") sur la console
 
 echo "$count"
