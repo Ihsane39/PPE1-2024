@@ -72,3 +72,34 @@ Ce script Bash vérifie la validité des URLs dans un fichier passé en argument
 5. À la fin de la boucle, le script affiche le nombre total d'URLs valides et de lignes douteuses (non conformes) en utilisant les valeurs des variables `OK` et `NOK`.
 
  - Le script utilise la commande `exit` sans préciser de code de sortie, ce qui signifie que le code par défaut (0) sera utilisé.
+
+# Séance 5
+## Réponse question 1: 
+mini-projet
+
+1. Il ne faut pas utilist la commande "cat" car elle va lire entièrement le fichier en une seule fois et elle n'est pas idéale pour manipuler chaque ligne individuellement dans script Bash.
+2. Pour transformer "urls/fr.txt" en paramètre du script il faut ajoutet les lignes suivantes: 
+#!/bin/bash
+
+# Vérification de l'argument
+if [ -z "$1" ]; then
+    echo "Erreur : Vous devez spécifier un fichier en argument."
+    exit 1
+fi
+
+# Lecture du fichier passé en argument
+while read -r line; do
+    echo "$line"
+done < "$1"
+
+ $1 représente le premier argument passé au script (le chemin du fichier).
+ Pour vérifier le passage d'argument j'ai mis en place la condition if  qui va vérifier la présence du premier argument si aucun argument n'est passé, le script affiche une erreur et se termine avec exit 1. 
+
+3. Pour afficher le numéro de ligne avant chaque URL (sur la même ligne) il faut ajouter un compteur et l'incrementer pour chaque tour de la boucle while et l'afficher en débute de ligne en séparant par une tabulation (\t).
+
+1.1 les erreurs peuvent être corrigées : j'ai modifié deux urls le 3 et le 9:
+ le 3 avait le code erreur 301 signifie que la page a été déplacée. le lien lui manquait le https:// car  curl ne peut pas lire sans le http.
+ le 9 avait le code erreur 404  signifie que la page est inexistante; donc j'ai chercheé le lien qui correpond. 
+ Donc j'ai mofifié ces deux liens par des liens fonctionnels.
+
+Je n'ai pas compris la cosigne sur tableaux: tableau-fr.tsv (cette semaine uniquement)
