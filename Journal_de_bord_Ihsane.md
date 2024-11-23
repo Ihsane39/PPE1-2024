@@ -103,3 +103,10 @@ done < "$1"
  Donc j'ai mofifié ces deux liens par des liens fonctionnels.
 
 Je n'ai pas compris la cosigne sur tableaux: tableau-fr.tsv (cette semaine uniquement)
+
+# Séance 7
+## Le style déploiment de page (htm,css et Bulma)
+
+Le html et le css j'arrive un peu mieux que Bulma.
+Je ne comprends pass comme fonctionne l'intégration de style Bulma dans un scritp html. Or que c'est du syle et doit être logiquement dans le script CSS.
+De plus lorsque j'ai regardé le site **https://bulma.io/documentation/features/skeletons/** en détail je ne vois pas le style approprement parlé mais plutôt des fonctionnalités comme des boutons clicables qui mène vers des liens, des exemples de commandes formulaires ect..
